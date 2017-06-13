@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Industrial</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+    <div class="wrapper">
+
+    	<header>
+	      <div class="container">
+	      	<div class="row">
+	      	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	      	    	<a href=""><img src="img/logo.png"></a>
+	      	    </div>
+	      	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	      	    	<form>
+					  <input type="text" name="search" placeholder="Search">
+					</form>
+	      	    </div>
+	      	</div>      	
+	      </div>
+      </header>
+
+      <section class="gina">
+      	<div class="container">
+      		<div class="row">
+      			<h1>gina</h1>
+      			<P>A coffee instrument combining classic coffee techniques with the latest technology </P>
+      			<button class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">shop now</button>
+
+      			<div id="id01" class="modal-order">
+  
+				  <form class="modal-content animate" action="/action_page.php">
+				    <div class="closecontainer">
+				      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				    </div>
+
+				    <div class="container">
+				      <label><b>Your order</b></label>
+				      <input type="text" placeholder="Your order" name="uorder" required>
+
+				      <label><b>Name</b></label>
+				      <input type="text" placeholder="Name" name="uname" required>
+
+				      <label><b>Address</b></label>
+				      <input type="text" placeholder="Address" name="uaddress" required>
+
+				      <label><b>Phone</b></label>
+				      <input type="number" placeholder="Phone" name="uphone" required>
+				        
+				      <button class="order" type="submit">order</button>
+				      
+				    </div>
+
+				    <div class="container" style="background-color:#f1f1f1">
+				      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				      
+				    </div>
+				  </form>
+				</div>
+      		</div>
+      	</div>
+      </section>
+
+      <section class="two-parts">
+      	<div class="container">
+      		<div class="row">
+      			<div class="beoplay">
+      				<h2>BEOPLAY A1</h2>
+      				<p>The ultra-portable Bluetooth speaker that will travel with you anywhere</p>
+      				<button class="button btn_two-parts" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">buy</button>
+      			</div>
+      			<div class="leica">
+      				<h2>Leica MP</h2>
+      				<p>Focused technology for focused photography</p>	
+      				<button class="button btn_two-parts" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">buy</button>
+      			</div>
+      		</div>
+      	</div>
+      </section>
+
+      <section class="three-parts">
+      	<div class="container">
+      		<div class="row">
+      			<div class="molekule">
+      				
+      				<p>The world’s first molecular air purifier.</p>
+      				<h2>Molekule</h2>
+      				<button class="button btn_three-parts" id="btnDetails1">details</button>
+
+      				<div id="modalDetails1" class="modal-details">
+					  <!-- Modal content -->
+					  <div class="modal-details-content">
+					    <span class="close-details-1">&times;</span>
+					    <p>Some text about Molekule..</p>
+					  </div>
+					</div>
+
+      			</div>
+      			<div class="signature">
+      				
+      				<p>Bowers & Wilkins</p>
+      				<h2>P9 Signature</h2>	
+      				<button class="button btn_three-parts" id="btnDetails2">details</button>
+
+      				<div id="modalDetails2" class="modal-details">
+					  <!-- Modal content -->
+					  <div class="modal-details-content">
+					    <span class="close-details-2">&times;</span>
+					    <p>Some text about Signature..</p>
+					  </div>
+					</div>
+      			</div>
+      			<div class="dr">
+      				
+      				<p>An homage to Dieter Rams</p>	
+      				<h2>DR-II</h2>
+      				<button class="button btn_three-parts" id="btnDetails3">details</button>
+
+      				<div id="modalDetails3" class="modal-details">
+					  <!-- Modal content -->
+					  <div class="modal-details-content">
+					    <span class="close-details-3">&times;</span>
+					    <p>Some text about DR-II..</p>
+					  </div>
+					</div>
+      			</div>
+      		</div>
+      	</div>
+      </section>
+
+      <section class="newsletter">
+      	<div class="container">
+      		<div class="row">
+      			<h3>Get our freshest content delivered to your inbox</h3>
+      			<p>For the latest stories, news, events, promotions and exclusive offers, sign up today. We know you get a lot of emails, but we promise... ours is the one you want.</p>
+      			<form>
+					<input type="email" name="email" placeholder="Your email">
+					<button class="button btn_newsletter btn_subscribe">subscribe</button>
+				</form>
+      			
+      			
+      		</div>
+      	</div>
+      </section>
+
+    </div>
+
+    <footer>
+    	<div class="container">
+           <div class="menu">
+           	<ul>
+           		<li class="mnu"><a href="">About</a></li>
+           		<li class="dot"><span>.</span></li>
+           		<li class="mnu"><a href="">search</a></li>
+           		<li class="dot"><span>.</span></li>
+           		<li class="mnu"><a href="">contact</a></li>
+           		<li class="dot"><span>.</span></li>
+           		<li class="mnu"><a href="">facebook</a></li>
+           		<li class="dot"><span>.</span></li>
+           		<li class="mnu"><a href="">twitter</a></li>
+           	</ul>
+           </div>
+           <div class="copy">
+           	<p>© Industrial Design Magazine</p>
+           </div>
+        </div>
+    </footer>
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    
+  </body>
+</html>

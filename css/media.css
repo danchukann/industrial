@@ -1,0 +1,158 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+	.molekule,
+	.signature,
+	.dr{
+		width: 32%;
+	}
+	.signature{
+		margin-left: 20px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.leica .button{
+		margin-top: 93px;
+	}
+	.signature{
+		margin-left: 15px;
+	}
+	.signature p{
+		margin-top: 200px;
+	}
+	.molekule p,
+	.dr p{
+		margin-top: 50px;
+	}
+	.dr p{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width : 736px) {
+	header img{
+		display: block;
+		margin: 65px auto 20px;
+	}
+	header input[type=text] {
+		display: block;
+		margin: 20px auto 40px;
+		float: none;
+	}
+	.beoplay h2,
+	.leica h2{
+		font-size: 40px;
+	}
+	.molekule h2,
+	.signature h2,
+	.dr h2{
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width : 640px) {
+	.leica .button{
+		margin-top: 127px;
+
+	}
+		
+}
+@media only screen and (max-width : 568px) {
+	.beoplay h2,
+	.leica h2{
+		font-size: 36px;
+	}
+	.molekule h2,
+	.signature h2,
+	.dr h2{
+		font-size: 28px;
+	}
+	.leica .button {
+	    margin-top: 94px;
+	}
+	.menu li a{
+		font-size: 23px;
+	}
+	.dr p{
+		margin-bottom: 0px;
+	}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 425px) {
+	.gina p,
+	.gina h1{
+		width: 95%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.gina .button{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.beoplay,
+	.leica{
+		width: 100%;
+		float: none;
+	}
+	.beoplay h2,
+	.leica h2{
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+	.beoplay p,
+	.leica p{
+		width: 95%;
+
+	}
+	.beoplay p{
+		padding-left: 10px;
+	}
+	.molekule,
+	.signature,
+	.dr{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+	.molekule p,
+	.dr p{
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+	.signature p{
+		margin-top: 0px;
+		padding-top: 220px;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+	.leica p{
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+	.beoplay h2,
+	.leica h2{
+		font-size: 45px;
+	}
+	.btn_newsletter{
+		padding: 18px 90px;
+	}
+	.newsletter input[type=email]{
+		padding: 14px 16px;
+	}
+}
